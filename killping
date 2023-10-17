@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#derp=$(pgrep ping.sh)
+#if [[ -z $derp ]]; then
+#	exit 1;
+#else
+	killall "ping.sh";
+	killall "spd-say";
+	/home/admin/git/ducttape/ping.sh &
+
